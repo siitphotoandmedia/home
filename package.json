@@ -1,7 +1,7 @@
 {
   "name": "photoclub-official",
   "version": "0.1.0",
-  "homepage": " https://siitphotoandmedia.github.io/home/",
+  "homepage": "https://siitphotoandmedia.github.io/home/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
