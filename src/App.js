@@ -10,7 +10,6 @@ import Gallery from "./component/gallery/gallery";
 import About from "./component/about/about";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./component/home/home";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
         </header>
         <body>
           <Routes>
-            <Route path="/" element={<Gallery />}></Route>
+            <Route path="/home" element={<Gallery />}></Route>
             <Route path="./gallery" element={<Gallery />}></Route>
             {/* Add your Route here */}
             {/* <Route path="/about" element={<About />}></Route> */}
