@@ -1,4 +1,10 @@
-import { HashRouter as Router, Route, Routes, Switch } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+  Switch,
+  useLocation,
+} from "react-router-dom";
 import NavBar from "./component/NavBar";
 
 import Gallery from "./component/gallery/gallery";
@@ -10,17 +16,18 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 
 function App() {
   return (
-    <Router>
+    <Router baseline="/home">
       <div>
         <header>
           <NavBar />
         </header>
         <body>
           <Routes>
-            <Route path="/home" element={<Gallery />}></Route>
-            <Route path="./gallery" element={<Gallery />}></Route>
+            <Route path="/" element={<Gallery />}></Route>
             <Route path="/gallery" element={<Gallery />}></Route>
-            <Route path="/home/gallery" element={<Gallery />}></Route>
+            <Route path="/a" element={<Gallery />}></Route>
+            {/* <Route path="./gallery" element={<Gallery />}></Route> */}
+
             {/* Add your Route here */}
             {/* <Route path="/about" element={<About />}></Route> */}
             {/* <Route path="./test" element={<FCTester />}></Route>

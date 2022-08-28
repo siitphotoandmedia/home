@@ -21,7 +21,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
             <Nav.Link
-              href="./gallery"
+              href="/home/gallery"
               style={{
                 fontSize: "130%",
                 marginLeft: "10px",
