@@ -46,7 +46,6 @@ function Gallery() {
     <div>
       <div id="gallery_desc" style={{ textAlign: "center", marginTop: "10px" }}>
         <h2>Gallery</h2>
-        <h4>This is our archive</h4>
         <p>Take a look at some of our photos taken by our club members.</p>
       </div>
       {!isLoad && (

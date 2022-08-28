@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="/" style={{ fontSize: "150%" }}>
+        <Navbar.Brand href="/home" style={{ fontSize: "150%" }}>
           <img
             alt=""
             src={require("../assets/logo/beta3_Final Colored Transparent.png")}
@@ -21,7 +21,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
             <Nav.Link
-              href="/gallery"
+              href="./gallery"
               style={{
                 fontSize: "130%",
                 marginLeft: "10px",
@@ -40,6 +40,16 @@ function NavBar() {
               }}
             >
               About
+            </Nav.Link> */}
+            {/* <Nav.Link
+              href="/test"
+              style={{
+                fontSize: "130%",
+                marginLeft: "10px",
+                marginRight: "10px",
+              }}
+            >
+              Test
             </Nav.Link> */}
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

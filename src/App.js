@@ -1,12 +1,8 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Switch,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Switch } from "react-router-dom";
 import NavBar from "./component/NavBar";
 
 import Gallery from "./component/gallery/gallery";
+import FCTester from "./component/debug/flipcard_tester";
 import About from "./component/about/about";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,8 +19,12 @@ function App() {
           <Routes>
             <Route path="/home" element={<Gallery />}></Route>
             <Route path="./gallery" element={<Gallery />}></Route>
+            <Route path="/gallery" element={<Gallery />}></Route>
+            <Route path="/home/gallery" element={<Gallery />}></Route>
             {/* Add your Route here */}
             {/* <Route path="/about" element={<About />}></Route> */}
+            {/* <Route path="./test" element={<FCTester />}></Route>
+            <Route path="/test" element={<FCTester />}></Route> */}
           </Routes>
         </body>
       </div>
