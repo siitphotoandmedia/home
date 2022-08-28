@@ -20,8 +20,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
+            {/* Some problems in github pages related to Router (and also hash router), so use this url to prevent it */}
             <Nav.Link
-              href="/home/gallery"
+              href="/home/#/gallery"
               style={{
                 fontSize: "130%",
                 marginLeft: "10px",

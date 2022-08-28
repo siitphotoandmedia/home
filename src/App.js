@@ -5,6 +5,7 @@ import {
   Switch,
   useLocation,
 } from "react-router-dom";
+//BrowserRouter won't work for some reasons
 import NavBar from "./component/NavBar";
 
 import Gallery from "./component/gallery/gallery";
